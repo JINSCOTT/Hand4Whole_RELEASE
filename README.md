@@ -29,6 +29,10 @@ This repo is official **[PyTorch](https://pytorch.org)** implementation of **[**
 2、Reinstall the specific pyopengl fork: https://github.com/mmatl/pyopengl
 3、Set opengl's backend to egl or osmesa via os.environ["PYOPENGL_PLATFORM"] = "egl"
 ```
+## Webcam demo
+* Obtain `yolov7-tiny.onnx` from https://github.com/WongKinYiu/yolov7. [Colab](https://colab.research.google.com/github/WongKinYiu/yolov7/blob/main/tools/YOLOv7onnx.ipynb)
+* Go to the `demo` folder.
+* Run `python detect.py --gpu 0`.
 
 ## Directory  
 ### Root  
